@@ -3,7 +3,7 @@ import { SimpleGrid, AspectRatio, Link, VStack, Icon, Flex, Stack, Box, Text, HS
 import {User} from "../types"
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 
-const Template = ({data}: {data: User}) => {
+export default function Template({data}: {data: User}) {
 
     return (
         <Center py={6}>
@@ -34,4 +34,4 @@ const Template = ({data}: {data: User}) => {
       );
 }
 
-export default Template;
+// export default Template;
